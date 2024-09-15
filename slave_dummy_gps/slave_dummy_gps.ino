@@ -31,7 +31,7 @@ void loop()
 void sendLocation() {
   // Construct the AT command to send location via GSM
   Serial.println("sending loc");
-  String locationData = "AT+CMGS=\"+918897008307\"\r\n"; // Replace +1234567890 with the recipient's phone number
+  String locationData = "AT+CMGS=\"+91phonenumber\"\r\n"; // Replace +1234567890 with the recipient's phone number
   gsm_serial.println(locationData);
   delay(1000);
   // Construct the message with latitude and longitude
@@ -41,7 +41,7 @@ void sendLocation() {
   delay(1000);
 
   Serial.println("sending loc");
-  String locationData2 = "AT+CMGS=\"+917995549189\"\r\n"; // Replace +1234567890 with the recipient's phone number
+  String locationData2 = "AT+CMGS=\"+91phonenumber\"\r\n"; // Replace +1234567890 with the recipient's phone number
   gsm_serial.println(locationData2);
   delay(1000);
   // Construct the message with latitude and longitude
@@ -54,7 +54,7 @@ void sendLocation() {
   delay(1000);
   
   Serial.println("sending loc");
-  String locationData3= "AT+CMGS=\"+919573368818\"\r\n"; // Replace +1234567890 with the recipient's phone number
+  String locationData3= "AT+CMGS=\"+91phonenumber\"\r\n"; // Replace +1234567890 with the recipient's phone number
   gsm_serial.println(locationData3);
   delay(1000);
   // Construct the message with latitude and longitude
@@ -67,7 +67,7 @@ void sendLocation() {
   delay(1000);
   
   Serial.println("sending loc");
-  String locationData4= "AT+CMGS=\"+919391174334\"\r\n"; // Replace +1234567890 with the recipient's phone number
+  String locationData4= "AT+CMGS=\"+91phonenumber\"\r\n"; // Replace +1234567890 with the recipient's phone number
   gsm_serial.println(locationData3);
   delay(1000);
   // Construct the message with latitude and longitude
