@@ -3,7 +3,7 @@
 #include <Wire.h>
 SoftwareSerial Gsm(9, 10);
 
-String phone_no[] = {"8897008307"};
+String phone_no[] = {"phonenumber"};
 int i;
 TinyGPS gps;
 String textMessage;
